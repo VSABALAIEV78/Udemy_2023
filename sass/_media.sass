@@ -1,0 +1,425 @@
+@media (max-width: 1399px)
+	.navi
+		&_item
+			padding-right: 27px
+	
+@media (max-width: 1199px)
+	.navi
+		min-width: 990px 
+		&_link
+			font-size: 13px
+		&_item
+			padding-right: 23px
+	.subheader
+		&_btn
+			margin-top: 20px
+	.main
+		h1
+			font-size: 50px
+		h2
+			margin-top: 10px
+			font-size: 30px
+		&_text
+			font-size: 20px
+			line-height: 25px
+			font-weight: 300
+	.item
+		margin-top: 10px
+			  
+	.reasons
+		padding-bottom: 10px
+		&_text
+			width: 258px
+			line-height: 17px
+			.title
+				text-align: left 
+			.text 
+				margin-top: 5px
+				font-size: 13px
+	.advantages
+		padding: 0 auto
+	
+	.req
+		padding: 30px 0
+		&_item
+			width: 400px
+		&_title
+			padding-left: 30px
+			font-size: 15px	
+		&_list
+			font-size: 13px			
+			left: -20px
+			line-height: 15px
+			li
+				&:before
+					width: 18px
+					height: 17px
+					left: -25px	
+		&_bouns
+			font-size: 15px
+			padding-left: 30px	
+	footer
+		.footer_wrapper
+			.app_store
+				padding-right: 5px
+				.apps
+					width: 290px
+
+@media (max-width: 991px)
+	.navi
+		min-width: 760px 
+		padding-left: 10px
+		&_link
+			font-size: 13px
+		&_item
+			padding-right: 10px
+	.subheader
+		&_text
+			font-size: 11.5px
+		&_call
+			font-size: 13px
+		&_tel
+			font-size: 21px
+		&_btn
+			width: 150px 
+	.main
+		height: 600px
+		h1
+			font-size: 42px
+		h2
+			font-size: 25px
+		&_text
+			font-size: 15px
+		&_btn
+			margin-top: 50px 		
+			width: 200px
+			height: 55px
+			padding: 14px 0
+			font-size: 15px
+			font-weight: 400
+	.reasons
+		padding: 40px
+		&_text
+			width: 400px
+	.adv2
+		margin-top: 30px
+		font-size: 30px
+	.item
+		margin: 20px 30px
+		min-height: 110px
+		&:nth-child(4)
+			min-height: 90px
+		&_circle
+			width: 100px
+			height: 100px
+	.req
+		&_item
+			width: 350px
+		&_title
+			width: 350px
+
+	.mob
+		padding: 40px 0 40px 0
+		.adv3
+			padding: 0 70px 30px 70px
+		&_item
+			width: 280px
+			height: 240px
+		&_img
+			width: 100%
+			height: 100%
+		&_text
+			width: 100%
+			font-size: 20px
+			padding-top: 70px
+	.car
+		padding: 30px 0 30px 0
+		min-height: 600px
+		&_img
+			width: 90%
+	.map
+		height: 300px
+		padding: 20px 0 0 0 
+		.container
+			.cities
+				margin-top: 100px
+	footer
+		.footer_wrapper
+				.social
+					&_icon
+						width: 30px
+						height: 30px
+				.navigation
+					.line
+						width: 250px
+					.buttons
+						.btn_nav1
+							font-size: 12px
+					.buttons2
+						margin: 0 auto
+						width: 250px
+						display: block
+						text-align: center
+						.btn_nav2
+							padding: 0 5px
+							
+
+				.app_store
+					padding: 0 0
+					.apps
+						width: 100px
+						height: 100px
+						background: url('../icons/appstore2.svg') center center / contain no-repeat
+						float: none
+						clear: none
+						right: none
+						margin: 0 auto
+
+@media (max-width: 767px)
+	.navi
+		position: fixed
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		top: 0
+		left: -100%
+		min-width: 100%
+		height: 100vh
+		padding: 20px 15px
+		background-color: rgba(0,0,0, .8)
+		transition: 0.6s all
+		&_active 
+			display: flex
+			left: -45%
+			width: 20%
+			height: 100%
+			min-height: 340px
+			vertical-align: middle
+			padding-left: 35%
+			text-align: center
+			background-color: rgba(0,0,0, .9)
+			border: 3px solid rgba(172, 172, 172, 0.5)
+		&_item 
+			padding-left: 80px
+			border: none
+			margin: 15px 0
+		&_link 
+			font-size: 20px
+	.hamburger
+		display: block
+		position: absolute
+		margin: 10px 0
+		right: 25px
+		span
+			display: block
+			width: 40px
+			height: 4px
+			margin: 5px 0
+			background-color: #fff
+			transition: 0.5s all	
+		&_active
+			span
+				background-color: #ff0000
+				&:nth-of-type(1)
+					transform: rotate(-45deg) translateY(-1px)
+					margin-top: 15px
+				&:nth-of-type(2)
+					display: none
+				&:nth-of-type(3)
+					transform: rotate(45deg)
+					margin-top: -10px
+	.subheader
+		&_uber_text 
+			font-size: 18px
+		&_text
+			font-size: 11px
+		&_btn 		
+			display: none
+	.xs-hidden
+		display: none
+	.xs-visible 
+		display: block						
+				
+	.main
+		height: 370px 
+		h1
+			font-size: 35px
+		h2
+			font-size: 20px
+		&_text
+			display: none
+	.adv2
+		font-size: 25px
+	.reasons
+		padding: 40px
+		&_text
+			margin: 0 auto
+			margin-top: 15px
+			width: 400px
+			text-align: justify
+			.title
+				text-align: center
+				font-size: 15.5px
+			.text 		
+				margin-top: 10px
+	.item
+		display: block
+		&_circle
+			display: flex
+			margin: 10px auto
+			width: 80px 
+			height: 80px 
+		&_icon
+			width: 50%
+			height: 50%
+	footer
+		height: 180px
+		.footer_wrapper
+			height: 170px
+			.footer_item
+				.social
+					display: flex
+					justify-content: center
+					margin-top: 40px
+					padding: 0 40px
+					&_icon
+						padding: 0 15px
+				.navigation
+					.line
+						width: 180px
+					.buttons
+						display: block
+						text-align: center
+						.btn_nav1
+							display: block
+					.buttons2
+						margin-top: 5px
+						display: block
+						text-align: center
+						margin: 0 auto
+						width: 200px
+						text-align: center
+					h4.language
+						padding-right: 0
+				.app_store
+					padding-top: 10px
+					.apps
+						width: 90px
+						height: 90px
+
+
+@media (max-width: 575px) 
+	.navi
+		left: -115%
+		transition: 1s all
+		&_active 
+			left: -25%
+			min-height: 320px
+			padding-left: 10%
+		&_item
+			width: 100%
+			margin: 10px 0
+			padding: 5px 0
+			padding-left: 20%
+			text-align: center
+		&_link
+			display: block
+			text-align: center
+			font-size: 17px
+	.hamburger
+		span
+			width: 30px
+			height: 3px
+			margin: 5px 0
+		&_active
+			span
+				background-color: #ff0000
+				&:nth-of-type(1)
+					transform: rotate(-45deg) translateY(-1px)
+				&:nth-of-type(3)
+					transform: rotate(45deg) translateY(1px)
+	.subheader
+		&_uber_text 
+			font-size: 11px
+		&_text
+			font-size: 7px
+		&_btn 		
+			display: none
+		&_call
+			font-size: 12px
+		&_tel
+			font-size: 	18px
+	.main
+		min-height: 450px
+		h1
+			margin-top: 140px
+			font-size: 25px
+		h2
+			margin: 50px 30px 0 30px
+			font-size: 20px
+		&_btn
+			margin-top: 60px
+			padding-top: 7px
+			width: 132px 
+			height: 40px
+			font-size: 12px
+
+	.reasons
+		padding: 10px 10px
+		&_text
+			width: 100%
+	.item
+		margin: 10px auto
+		&_circle
+			width: 75px 
+			height: 75px 
+		&_icon
+			width: 50%
+			height: 50%
+	.mob		
+		&_item
+			width: 240px
+			height: 200px
+
+		&_text
+			width: 100%
+			font-size: 18px
+			padding-top: 55px
+	.car
+		min-height: 400px
+		&_text
+			font-size: 15px
+	.req
+		&_item
+			width: 300px
+		&_title
+			width: 300px
+	.map
+		.adv
+			width: 80px		
+	footer
+		height: 240px
+		.footer_wrapper
+			height: 310px
+			flex-direction: column
+			.footer_item
+				width: 100%	
+				&:nth-child(1)
+					order: 1
+				&:nth-child(3)
+					order: 2					
+				.social
+					margin: 10px 0
+					margin-bottom: 0
+					display: flex
+					justify-content: center
+				.navigation
+					.buttons2
+						margin: 0 auto
+						width: 300px
+				.app_store
+					margin-top: 0
+					padding-top: 0
+					.apps
+						width: 100px
+						height: 100px
